@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Level</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/examStyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+ <style>
+  
+ </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../html/index.html">Exam System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto" style="margin-right: 300px;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="fas fa-question"></i> About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="fas fa-phone-square"></i> Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Exam Level
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#"> <i class="fab fa-etsy"></i> Easy Level</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-italic"></i> Intermedaite Level</a>
+                        <a class="dropdown-item" href="#"> <i class="fas fa-hospital-symbol"></i> Hard Level</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    
+    <div class="main-container">
+      <div class="start" id="start" style="display:block">
+    <div>
+    <button class="btn" id="btn1">Start Quiz</button>
+    </div>
+   
+         </div>  
+   <div class="questions" id="questions" style="display:none">
+   <div class="upper">
+    <div>
+    <h1 class="main-heading">Hard  Level Exam</h1>
+     <div>
+    
+     </div>
+    </div>
+   </div>
+   <div class="question-no">
+    <div class="questionof">
+    <h1 class="head">Question <span id="current">1</span> Of<span id="currentTotal"> 25</span></h1>
+    </div>
+    <div class="true">
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+
+    </div>
+   </div>
+   <div class="question-container">
+    <div class="left">
+    <h2 id="quest">Question</h2>
+    </div>
+    <div class="right">
+    <div class="btnOne"><button class="options">A</button><h2 id="option1" class="option" value="A">One</h2></div>
+    <div class="btnOne"><button class="options">B</button><h2 id="option2" class="option" value="B">TWO</h2></div>
+       <div class="btnOne"><button class="options">C</button><h2 id="option3" class="option" value="C">THREE</h2></div>
+    <div class="btnOne"><button class="options">D</button><h2 id="option4" class="option" value="D">FOUR</h2></div>
+    </div>
+    </div>
+   </div>
+   <div class="start" id="score" style="display:none">
+     <h2 id="showScore">  </h2>
+ 
+    <div class="alert alert-info finalResult" id="finalResult"></div>
+ </div>
+</div>
+ 
+  
+  <script src="../js/hardLevel.js">
+ 
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <footer>
+      
+      <div class="fo">
+           powered by Mohammad Jibreel &copy; 2021
+          
+          </div>
+      
+      </footer>
+
+
+      <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>

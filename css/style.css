@@ -1,0 +1,37 @@
+.EXAM {
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    font-weight: bold;
+    border-style: yellow;
+    box-shadow: 10px 5px 10px 5px lightseagreen;
+    border-width: 10px 5px 10px 20px;
+    text-align: center;
+    padding: 30px;
+    margin:20px;
+
+}
+
+span {
+    position: relative;
+    top:70px;
+
+}
+.EXAM:hover {
+    transform:rotate(360deg);
+    transition: width 2s;
+    box-shadow: 10px 5px 10px 5px blue;
+    font-size: 30x;
+    transform: rotateX(360);
+    transition: 1s;
+
+    
+
+}
+    
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
